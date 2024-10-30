@@ -1,0 +1,190 @@
+2024-10-28 00:32:26.700 +05:00 [INF] Application is shutting down...
+2024-10-28 00:32:26.700 +05:00 [DBG] Hosting stopping
+2024-10-28 00:32:26.710 +05:00 [DBG] Hosting stopped
+2024-10-28 02:23:00.981 +05:00 [DBG] Hosting starting
+2024-10-28 02:23:01.117 +05:00 [INF] Now listening on: http://localhost:5270
+2024-10-28 02:23:01.118 +05:00 [DBG] Loaded hosting startup assembly e-m-test-task
+2024-10-28 02:23:01.119 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-28 02:23:01.120 +05:00 [INF] Hosting environment: Development
+2024-10-28 02:23:01.121 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\e-m-test-task
+2024-10-28 02:23:01.122 +05:00 [DBG] Hosting started
+2024-10-28 02:23:02.191 +05:00 [DBG] Connection id "0HN7MPM4U7KS9" accepted.
+2024-10-28 02:23:02.192 +05:00 [DBG] Connection id "0HN7MPM4U7KS9" started.
+2024-10-28 02:23:02.192 +05:00 [DBG] Connection id "0HN7MPM4U7KSA" accepted.
+2024-10-28 02:23:02.194 +05:00 [DBG] Connection id "0HN7MPM4U7KSA" started.
+2024-10-28 02:23:02.215 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/index.html - null null
+2024-10-28 02:23:02.221 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-28 02:23:02.260 +05:00 [DBG] 3 candidate(s) found for the request path '/index.html'
+2024-10-28 02:23:02.263 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' was rejected by complex segment 'deliver-Order{ip}' for the request path '/index.html'
+2024-10-28 02:23:02.268 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' is not valid for the request path '/index.html'
+2024-10-28 02:23:02.269 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' was rejected by complex segment 'delivery-Order{districtId}' for the request path '/index.html'
+2024-10-28 02:23:02.270 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' is not valid for the request path '/index.html'
+2024-10-28 02:23:02.271 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' was rejected by complex segment 'orders{id}' for the request path '/index.html'
+2024-10-28 02:23:02.272 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' is not valid for the request path '/index.html'
+2024-10-28 02:23:02.273 +05:00 [DBG] Request did not match any endpoints
+2024-10-28 02:23:02.322 +05:00 [DBG] Connection id "0HN7MPM4U7KSA" completed keep alive response.
+2024-10-28 02:23:02.324 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/index.html - 200 null text/html;charset=utf-8 110.2878ms
+2024-10-28 02:23:02.409 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/index.js - null null
+2024-10-28 02:23:02.413 +05:00 [DBG] 3 candidate(s) found for the request path '/index.js'
+2024-10-28 02:23:02.414 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' was rejected by complex segment 'deliver-Order{ip}' for the request path '/index.js'
+2024-10-28 02:23:02.415 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' is not valid for the request path '/index.js'
+2024-10-28 02:23:02.416 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' was rejected by complex segment 'delivery-Order{districtId}' for the request path '/index.js'
+2024-10-28 02:23:02.417 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' is not valid for the request path '/index.js'
+2024-10-28 02:23:02.418 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' was rejected by complex segment 'orders{id}' for the request path '/index.js'
+2024-10-28 02:23:02.419 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' is not valid for the request path '/index.js'
+2024-10-28 02:23:02.420 +05:00 [DBG] Request did not match any endpoints
+2024-10-28 02:23:02.422 +05:00 [DBG] Connection id "0HN7MPM4U7KSA" completed keep alive response.
+2024-10-28 02:23:02.423 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/index.js - 200 null application/javascript;charset=utf-8 14.7123ms
+2024-10-28 02:23:02.726 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - null null
+2024-10-28 02:23:02.727 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-28 02:23:02.728 +05:00 [DBG] Request did not match any endpoints
+2024-10-28 02:23:02.736 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-10-28 02:23:02.795 +05:00 [DBG] Connection id "0HN7MPM4U7KSA" completed keep alive response.
+2024-10-28 02:23:02.796 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.8297ms
+2024-10-28 02:23:18.265 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5270/orders - application/json 213
+2024-10-28 02:23:18.273 +05:00 [DBG] 1 candidate(s) found for the request path '/orders'
+2024-10-28 02:23:18.274 +05:00 [DBG] Request matched endpoint 'HTTP: POST /orders'
+2024-10-28 02:23:18.276 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-28 02:23:18.278 +05:00 [INF] Executing endpoint 'HTTP: POST /orders'
+2024-10-28 02:23:18.286 +05:00 [DBG] Connection id "0HN7MPM4U7KSA", Request id "0HN7MPM4U7KSA:00000004": started reading request body.
+2024-10-28 02:23:18.287 +05:00 [DBG] Connection id "0HN7MPM4U7KSA", Request id "0HN7MPM4U7KSA:00000004": done reading request body.
+2024-10-28 02:23:18.899 +05:00 [INF] Setting HTTP status code 201.
+2024-10-28 02:23:18.900 +05:00 [INF] Writing value of type 'Order' as Json.
+2024-10-28 02:23:18.906 +05:00 [INF] Executed endpoint 'HTTP: POST /orders'
+2024-10-28 02:23:18.908 +05:00 [DBG] Connection id "0HN7MPM4U7KSA" completed keep alive response.
+2024-10-28 02:23:18.914 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5270/orders - 201 null application/json; charset=utf-8 648.7266ms
+2024-10-28 02:24:12.857 +05:00 [DBG] Connection id "0HN7MPM4U7KS9" received FIN.
+2024-10-28 02:24:12.858 +05:00 [DBG] Connection id "0HN7MPM4U7KS9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-28 02:24:12.860 +05:00 [DBG] Connection id "0HN7MPM4U7KS9" disconnecting.
+2024-10-28 02:24:12.861 +05:00 [DBG] Connection id "0HN7MPM4U7KS9" stopped.
+2024-10-28 02:25:15.260 +05:00 [INF] Application is shutting down...
+2024-10-28 02:25:15.261 +05:00 [DBG] Hosting stopping
+2024-10-28 02:25:15.264 +05:00 [DBG] Connection id "0HN7MPM4U7KSA" disconnecting.
+2024-10-28 02:25:15.265 +05:00 [DBG] Connection id "0HN7MPM4U7KSA" stopped.
+2024-10-28 02:25:15.265 +05:00 [DBG] Connection id "0HN7MPM4U7KSA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-28 02:25:15.268 +05:00 [DBG] Hosting stopped
+2024-10-28 02:25:17.969 +05:00 [DBG] Hosting starting
+2024-10-28 02:25:18.080 +05:00 [INF] Now listening on: http://localhost:5270
+2024-10-28 02:25:18.082 +05:00 [DBG] Loaded hosting startup assembly e-m-test-task
+2024-10-28 02:25:18.084 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-28 02:25:18.085 +05:00 [INF] Hosting environment: Development
+2024-10-28 02:25:18.085 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\e-m-test-task
+2024-10-28 02:25:18.086 +05:00 [DBG] Hosting started
+2024-10-28 02:25:20.454 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR" accepted.
+2024-10-28 02:25:20.456 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR" started.
+2024-10-28 02:25:20.456 +05:00 [DBG] Connection id "0HN7MPNE4Q9VS" accepted.
+2024-10-28 02:25:20.457 +05:00 [DBG] Connection id "0HN7MPNE4Q9VS" started.
+2024-10-28 02:25:20.495 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/index.html - null null
+2024-10-28 02:25:20.501 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-28 02:25:20.544 +05:00 [DBG] 3 candidate(s) found for the request path '/index.html'
+2024-10-28 02:25:20.548 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' was rejected by complex segment 'deliver-Order{ip}' for the request path '/index.html'
+2024-10-28 02:25:20.551 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' is not valid for the request path '/index.html'
+2024-10-28 02:25:20.552 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' was rejected by complex segment 'delivery-Order{districtId}' for the request path '/index.html'
+2024-10-28 02:25:20.553 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' is not valid for the request path '/index.html'
+2024-10-28 02:25:20.554 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' was rejected by complex segment 'orders{id}' for the request path '/index.html'
+2024-10-28 02:25:20.555 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' is not valid for the request path '/index.html'
+2024-10-28 02:25:20.557 +05:00 [DBG] Request did not match any endpoints
+2024-10-28 02:25:20.601 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR" completed keep alive response.
+2024-10-28 02:25:20.603 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/index.html - 200 null text/html;charset=utf-8 109.5322ms
+2024-10-28 02:25:20.981 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/index.js - null null
+2024-10-28 02:25:20.984 +05:00 [DBG] 3 candidate(s) found for the request path '/index.js'
+2024-10-28 02:25:20.985 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' was rejected by complex segment 'deliver-Order{ip}' for the request path '/index.js'
+2024-10-28 02:25:20.987 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' is not valid for the request path '/index.js'
+2024-10-28 02:25:20.989 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' was rejected by complex segment 'delivery-Order{districtId}' for the request path '/index.js'
+2024-10-28 02:25:20.990 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' is not valid for the request path '/index.js'
+2024-10-28 02:25:20.991 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' was rejected by complex segment 'orders{id}' for the request path '/index.js'
+2024-10-28 02:25:20.992 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' is not valid for the request path '/index.js'
+2024-10-28 02:25:20.993 +05:00 [DBG] Request did not match any endpoints
+2024-10-28 02:25:20.996 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR" completed keep alive response.
+2024-10-28 02:25:20.997 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/index.js - 200 null application/javascript;charset=utf-8 15.5129ms
+2024-10-28 02:25:21.043 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - null null
+2024-10-28 02:25:21.045 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-28 02:25:21.045 +05:00 [DBG] Request did not match any endpoints
+2024-10-28 02:25:21.053 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-10-28 02:25:21.110 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR" completed keep alive response.
+2024-10-28 02:25:21.111 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.8296ms
+2024-10-28 02:25:31.848 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5270/orders - application/json 213
+2024-10-28 02:25:31.849 +05:00 [DBG] 1 candidate(s) found for the request path '/orders'
+2024-10-28 02:25:31.850 +05:00 [DBG] Request matched endpoint 'HTTP: POST /orders'
+2024-10-28 02:25:31.852 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-28 02:25:31.853 +05:00 [INF] Executing endpoint 'HTTP: POST /orders'
+2024-10-28 02:25:31.859 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR", Request id "0HN7MPNE4Q9VR:00000004": started reading request body.
+2024-10-28 02:25:31.861 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR", Request id "0HN7MPNE4Q9VR:00000004": done reading request body.
+2024-10-28 02:25:32.327 +05:00 [INF] Setting HTTP status code 201.
+2024-10-28 02:25:32.328 +05:00 [INF] Writing value of type 'Order' as Json.
+2024-10-28 02:25:32.332 +05:00 [INF] Executed endpoint 'HTTP: POST /orders'
+2024-10-28 02:25:32.334 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR" completed keep alive response.
+2024-10-28 02:25:32.340 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5270/orders - 201 null application/json; charset=utf-8 491.9938ms
+2024-10-28 02:26:34.640 +05:00 [DBG] Connection id "0HN7MPNE4Q9VS" received FIN.
+2024-10-28 02:26:34.642 +05:00 [DBG] Connection id "0HN7MPNE4Q9VS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-28 02:26:34.643 +05:00 [DBG] Connection id "0HN7MPNE4Q9VS" disconnecting.
+2024-10-28 02:26:34.644 +05:00 [DBG] Connection id "0HN7MPNE4Q9VS" stopped.
+2024-10-28 02:27:44.097 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR" disconnecting.
+2024-10-28 02:27:44.098 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR" stopped.
+2024-10-28 02:27:44.099 +05:00 [DBG] Connection id "0HN7MPNE4Q9VR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-28 02:36:49.118 +05:00 [INF] Application is shutting down...
+2024-10-28 02:36:49.118 +05:00 [DBG] Hosting stopping
+2024-10-28 02:36:49.122 +05:00 [DBG] Hosting stopped
+2024-10-28 02:36:53.694 +05:00 [DBG] Hosting starting
+2024-10-28 02:36:53.811 +05:00 [INF] Now listening on: http://localhost:5270
+2024-10-28 02:36:53.812 +05:00 [DBG] Loaded hosting startup assembly e-m-test-task
+2024-10-28 02:36:53.814 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-28 02:36:53.814 +05:00 [INF] Hosting environment: Development
+2024-10-28 02:36:53.815 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\e-m-test-task
+2024-10-28 02:36:53.815 +05:00 [DBG] Hosting started
+2024-10-28 02:36:55.159 +05:00 [DBG] Connection id "0HN7MPTT61DD5" accepted.
+2024-10-28 02:36:55.161 +05:00 [DBG] Connection id "0HN7MPTT61DD5" started.
+2024-10-28 02:36:55.162 +05:00 [DBG] Connection id "0HN7MPTT61DD6" accepted.
+2024-10-28 02:36:55.163 +05:00 [DBG] Connection id "0HN7MPTT61DD6" started.
+2024-10-28 02:36:55.186 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/index.html - null null
+2024-10-28 02:36:55.191 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-28 02:36:55.235 +05:00 [DBG] 3 candidate(s) found for the request path '/index.html'
+2024-10-28 02:36:55.239 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' was rejected by complex segment 'deliver-Order{ip}' for the request path '/index.html'
+2024-10-28 02:36:55.242 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' is not valid for the request path '/index.html'
+2024-10-28 02:36:55.243 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' was rejected by complex segment 'delivery-Order{districtId}' for the request path '/index.html'
+2024-10-28 02:36:55.244 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' is not valid for the request path '/index.html'
+2024-10-28 02:36:55.246 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' was rejected by complex segment 'orders{id}' for the request path '/index.html'
+2024-10-28 02:36:55.247 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' is not valid for the request path '/index.html'
+2024-10-28 02:36:55.249 +05:00 [DBG] Request did not match any endpoints
+2024-10-28 02:36:55.292 +05:00 [DBG] Connection id "0HN7MPTT61DD6" completed keep alive response.
+2024-10-28 02:36:55.293 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/index.html - 200 null text/html;charset=utf-8 108.8767ms
+2024-10-28 02:36:55.382 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/index.js - null null
+2024-10-28 02:36:55.386 +05:00 [DBG] 3 candidate(s) found for the request path '/index.js'
+2024-10-28 02:36:55.387 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' was rejected by complex segment 'deliver-Order{ip}' for the request path '/index.js'
+2024-10-28 02:36:55.388 +05:00 [DBG] Endpoint 'HTTP: GET /deliver-Order{ip}' with route pattern '/deliver-Order{ip}' is not valid for the request path '/index.js'
+2024-10-28 02:36:55.389 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' was rejected by complex segment 'delivery-Order{districtId}' for the request path '/index.js'
+2024-10-28 02:36:55.390 +05:00 [DBG] Endpoint 'HTTP: GET /delivery-Order{districtId}' with route pattern '/delivery-Order{districtId}' is not valid for the request path '/index.js'
+2024-10-28 02:36:55.392 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' was rejected by complex segment 'orders{id}' for the request path '/index.js'
+2024-10-28 02:36:55.393 +05:00 [DBG] Endpoint 'HTTP: GET /orders{id}' with route pattern '/orders{id}' is not valid for the request path '/index.js'
+2024-10-28 02:36:55.394 +05:00 [DBG] Request did not match any endpoints
+2024-10-28 02:36:55.396 +05:00 [DBG] Connection id "0HN7MPTT61DD6" completed keep alive response.
+2024-10-28 02:36:55.397 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/index.js - 200 null application/javascript;charset=utf-8 15.0057ms
+2024-10-28 02:36:55.721 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - null null
+2024-10-28 02:36:55.723 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-28 02:36:55.724 +05:00 [DBG] Request did not match any endpoints
+2024-10-28 02:36:55.733 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-10-28 02:36:55.792 +05:00 [DBG] Connection id "0HN7MPTT61DD6" completed keep alive response.
+2024-10-28 02:36:55.793 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.9386ms
+2024-10-28 02:37:07.157 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5270/orders - application/json 213
+2024-10-28 02:37:07.165 +05:00 [DBG] 1 candidate(s) found for the request path '/orders'
+2024-10-28 02:37:07.166 +05:00 [DBG] Request matched endpoint 'HTTP: POST /orders'
+2024-10-28 02:37:07.168 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-28 02:37:07.171 +05:00 [INF] Executing endpoint 'HTTP: POST /orders'
+2024-10-28 02:37:07.175 +05:00 [DBG] Connection id "0HN7MPTT61DD6", Request id "0HN7MPTT61DD6:00000004": started reading request body.
+2024-10-28 02:37:07.176 +05:00 [DBG] Connection id "0HN7MPTT61DD6", Request id "0HN7MPTT61DD6:00000004": done reading request body.
+2024-10-28 02:37:07.615 +05:00 [INF] order Order
+2024-10-28 02:37:07.618 +05:00 [INF] Setting HTTP status code 201.
+2024-10-28 02:37:07.619 +05:00 [INF] Writing value of type 'Order' as Json.
+2024-10-28 02:37:07.622 +05:00 [INF] Executed endpoint 'HTTP: POST /orders'
+2024-10-28 02:37:07.624 +05:00 [DBG] Connection id "0HN7MPTT61DD6" completed keep alive response.
+2024-10-28 02:37:07.631 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5270/orders - 201 null application/json; charset=utf-8 473.7726ms
+2024-10-28 02:38:24.775 +05:00 [DBG] Connection id "0HN7MPTT61DD5" received FIN.
+2024-10-28 02:38:24.777 +05:00 [DBG] Connection id "0HN7MPTT61DD5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-28 02:38:24.778 +05:00 [DBG] Connection id "0HN7MPTT61DD5" disconnecting.
+2024-10-28 02:38:24.780 +05:00 [DBG] Connection id "0HN7MPTT61DD5" stopped.
+2024-10-28 02:39:18.884 +05:00 [DBG] Connection id "0HN7MPTT61DD6" disconnecting.
+2024-10-28 02:39:18.885 +05:00 [DBG] Connection id "0HN7MPTT61DD6" stopped.
+2024-10-28 02:39:18.886 +05:00 [DBG] Connection id "0HN7MPTT61DD6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-28 02:41:49.568 +05:00 [INF] Application is shutting down...
+2024-10-28 02:41:49.569 +05:00 [DBG] Hosting stopping
+2024-10-28 02:41:49.573 +05:00 [DBG] Hosting stopped
